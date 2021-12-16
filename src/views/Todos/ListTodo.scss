@@ -1,0 +1,32 @@
+.list-todo-container {
+    button {
+        cursor: pointer;
+    }
+
+    .add-todo {
+        .btnadd {
+            margin: 0 10px;
+        }
+    }
+
+    .list-todo-content {
+        width : 400px;
+        margin: 0 auto;
+
+        .todo-child {
+            &:first-child {
+                border-top: 1px solid gray;
+
+            }
+
+            height       : 40px;
+            margin-top   : 10px;
+            border-bottom: 1px solid gray;
+
+
+            .btnedit {
+                margin: 0 10px;
+            }
+        }
+    }
+}
